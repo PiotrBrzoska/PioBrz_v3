@@ -1,3 +1,5 @@
+package Podstawy;
+
 //03.01.2024
 public class dane {
     public static void main(String[] args) {

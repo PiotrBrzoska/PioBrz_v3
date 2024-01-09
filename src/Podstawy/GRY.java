@@ -1,3 +1,5 @@
+package Podstawy;
+
 public class GRY {
     public static void main(String[] args) {
 

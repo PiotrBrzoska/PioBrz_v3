@@ -1,3 +1,5 @@
+package Podstawy;
+
 public class zad8 {
     public static void main(String[] args) {
         System.out.println("1 pomieszczenie: " + (3*4) + "m kwadratowych");

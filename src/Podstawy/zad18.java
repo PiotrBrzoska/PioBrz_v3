@@ -1,4 +1,4 @@
-
+package Podstawy;
 
 public class zad18 {
     public static void main(String[] args) {
