@@ -35,7 +35,7 @@ public class ifzad13 {
 
                 double  cena1=59.99 + (0.45*(min-900));
                 System.out.println("Cena za pakiet: "+ cena1);
-
+                break;
 
             case "C":
                 System.out.println("Pakiet C: Cena to 69,99 złotego miesięcznie, brak limitu minut.");

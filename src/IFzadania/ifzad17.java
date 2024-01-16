@@ -13,7 +13,7 @@ public class ifzad17 {
         System.out.println("Czy któraś z osób jest na diecie bezglutenowej?  ");
         String masa3 = produkt.next();
 
-        if(masa1 == "tak" & masa2 == "tak" & masa3 == "tak"){
+        if(masa1.equals("tak") & masa2.equals("tak") & masa3.equals("tak")){
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa1);
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa2);
             System.out.println("Czy któraś z osób jest na diecie bezglutenowej:  "+ masa3);
@@ -24,7 +24,7 @@ public class ifzad17 {
                                "Kuchnia u Szefa");
 
         }
-        else if(masa1 == "tak" & masa2 == "nie" & masa3 == "tak"){
+        else if(masa1.equals("tak") & masa2.equals("nie") & masa3.equals("tak")){
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa1);
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa2);
             System.out.println("Czy któraś z osób jest na diecie bezglutenowej:  "+ masa3);
@@ -34,7 +34,7 @@ public class ifzad17 {
             System.out.println("Pizzeria przy Dworcowej");
 
         }
-        else if(masa1 == "tak" & masa2 == "nie" & masa3 == "nie"){
+        else if(masa1.equals("tak") & masa2.equals("nie") & masa3.equals("nie")){
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa1);
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa2);
             System.out.println("Czy któraś z osób jest na diecie bezglutenowej:  "+ masa3);
@@ -44,7 +44,7 @@ public class ifzad17 {
             System.out.println("Włoskie Specjały");
 
         }
-        else if(masa1 == "nie" & masa2 == "nie" & masa3 == "nie"){
+        else if(masa1.equals("nie") & masa2.equals("nie") & masa3.equals("nie")){
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa1);
             System.out.println("Czy któraś z osób jest na diecie wegetariańskiej:  "+ masa2);
             System.out.println("Czy któraś z osób jest na diecie bezglutenowej:  "+ masa3);
