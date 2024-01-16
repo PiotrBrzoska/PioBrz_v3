@@ -14,7 +14,7 @@ public class ifzad14 {
                 "• Pakiet C: Cena to 69,99 złotego miesięcznie, brak limitu minut.");
         String cos = produkt.next();
         System.out.println("Podaj liczbe rozmów: ");
-        double min = produkt.nextInt();
+        double min = produkt.nextDouble();
 
         switch (cos){
 

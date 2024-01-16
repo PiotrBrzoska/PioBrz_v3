@@ -8,7 +8,7 @@ public class ifzad16 {
 
 
         System.out.println("Podaj liczbe zkupionych ksiązek:  ");
-        double min = produkt.nextInt();
+        double min = produkt.nextDouble();
 
         if (min == 0) {
 

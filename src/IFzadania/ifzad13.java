@@ -12,9 +12,9 @@ public class ifzad13 {
                 "• Pakiet B: Cena to 59,99 złotego miesięcznie, w tym 900 darmowych minut.\n" +
                 "Każda następna minuta kosztuje 0,40 złotego.\n" +
                 "• Pakiet C: Cena to 69,99 złotego miesięcznie, brak limitu minut.");
-        String cos = produkt.next();
+        String cos = produkt.nextLine();
         System.out.println("Podaj liczbe rozmów: ");
-        double min = produkt.nextInt();
+        double min = produkt.nextDouble();
 
         switch (cos){
 

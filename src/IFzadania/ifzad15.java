@@ -8,7 +8,7 @@ public class ifzad15 {
 
 
         System.out.println("Podaj liczbe czeków:  ");
-        double min = produkt.nextInt();
+        double min = produkt.nextDouble();
 
         if(min<20){
 
