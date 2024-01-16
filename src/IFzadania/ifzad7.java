@@ -7,9 +7,9 @@ public class ifzad7 {
         Scanner produkt = new Scanner(System.in);
 
         System.out.println("PODAJ IMIONA: ");
-        String imie1 = produkt.next();
-        String imie2 = produkt.next();
-        String imie3 = produkt.next();
+        String imie1 = produkt.nextLine();
+        String imie2 = produkt.nextLine();
+        String imie3 = produkt.nextLine();
 
 
 
