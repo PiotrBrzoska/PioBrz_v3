@@ -20,7 +20,7 @@ public class ifzad10 {
             System.out.println("Nieprawidłowe dane");
 
         }
-        else if(tls == tluszcz){
+        else if(tls < tluszcz){
 
             System.out.println("Produkt jest niskotłuszczowy tłuszcz ma "+tls+" kcal");
 
